@@ -4,7 +4,7 @@ class Content extends Component {
     render() {
         return (
             <div>
-                <img className="logo" src={logo}/>
+                <img alt="this is a logo" className="logo" src={logo}/>
                 <p className="content">
                     2017.04.23 —— 2017.05.12 <br />
                     澳大利亚墨尔本皇冠娱乐场…… 

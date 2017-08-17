@@ -8,7 +8,7 @@ class Body extends Component {
     render() {
         return (
             <div className="body">
-                <a href="#" className="a_in_body">赛事详情</a>
+                <a href="#a" className="a_in_body">赛事详情</a>
                 <p className="c_in_body">
                     {bodyFont}
                 </p>
