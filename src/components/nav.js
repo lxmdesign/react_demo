@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 
 class Nav extends Component {
+    state = {
+        activeLiIndex: 0
+    }
+    navs = ["旅游介绍", "边赛信息", "主赛结果"]
+    liClick = (activeLiIndex) => {
+        this.setState({
+            activeLiIndex
+        })
+    }
     render() {
+        const { activeLiIndex } = this.state;
         return (
             <ul className="nav">
-                <li className="active">旅游介绍</li>
-                <li>边赛信息</li>
-                <li>主赛结果</li>
+                {this.navs.map((value, key) => <li key={key} className={activeLiIndex === key ? "active" : ""} onClick={() => this.liClick(key)}>{value}</li>)}
             </ul>
         );
     }
