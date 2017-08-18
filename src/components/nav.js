@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-
+import {
+    NavLink
+} from 'react-router-dom'
 class Nav extends Component {
     state = {
         activeLiIndex: 0
@@ -14,7 +16,13 @@ class Nav extends Component {
         const { activeLiIndex } = this.state;
         return (
             <ul className="nav">
-                {this.navs.map((value, key) => <li key={key} className={activeLiIndex === key ? "active" : ""} onClick={() => this.liClick(key)}>{value}</li>)}
+                {this.navs.map((value, key) =>
+                    <li key={key}>
+                        <NavLink className="navLink" activeClassName="active" to={`/${key}`}>
+                            {value}
+                        </NavLink>
+                    </li>
+                )}
             </ul>
         );
     }
