@@ -12,7 +12,7 @@ class Body extends Component {
                 <p className="c_in_body">
                     {bodyFont}
                 </p>
-                <button className="btn_in_body" onClick={this.btnClick}>
+                <button className="btn_in_body mt20" onClick={this.btnClick}>
                     立即购买
                 </button>
             </div>
