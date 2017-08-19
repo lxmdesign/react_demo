@@ -16,8 +16,8 @@ class Message extends Component{
 					<div className="timer">2017.04.23-2017.05.12</div>
 					<div className="detail">澳大利亚墨尔本皇冠娱乐场澳大是寿...</div>
 					<div className="btn">
-						<span className="btn">比赛中</span>
-                    	<span className="btn">已在售票</span>
+						<span>比赛中</span>
+                    	<span>已在售票</span>
 					</div>
 				</div>
 			</div>     

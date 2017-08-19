@@ -3,6 +3,10 @@ import Head from './react/head';
 import Body from './react/body';
 import BodyInfo from './react/bodyInfo';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom"
 
 class App extends Component {
   render() {

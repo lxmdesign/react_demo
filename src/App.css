@@ -1,12 +1,7 @@
 .App {
   margin:10px auto;
   text-align: center;
-  width:375px;
-  height:640px;
   border:1px solid #ccc;
   background-color: rgba(0,0,0,0.9);
-   position:relative;
+  position:relative;
 }
-
-
-

@@ -9,10 +9,9 @@ class Head extends Component{
 	render(){
 		return(
 			<div className="head">
-				<Attr />
-				<Nav />
-				<Message />
 				<Title />
+				<Message />
+				<Nav />
 			</div>
 		);
 	}
