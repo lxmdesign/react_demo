@@ -1,9 +1,3 @@
-/*
-* @Author: Administrator
-* @Date:   2017-08-18 09:41:22
-* @Last Modified by:   Administrator
-* @Last Modified time: 2017-08-18 12:14:43
-*/
 import React, { Component } from "react";
 import Attr from "./head/attr";//最上边属性栏
 import Title from "./head/title";//标题栏

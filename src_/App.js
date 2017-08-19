@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Head from './react/head';
 import Body from './react/body';
+import BodyInfo from './react/bodyInfo';
 import './App.css';
 
 class App extends Component {
