@@ -6,10 +6,13 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Head />
-        <Body />
-      </div>
+      <Router>
+        <div className="App">
+          <Head />
+          <Route path="/travel" component={Body}/>
+          <Route path="/info" component={BodyInfo}/>
+        </div>
+      </Router>
     );
   }
 }
