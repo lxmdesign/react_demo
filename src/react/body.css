@@ -78,4 +78,15 @@
 	text-align: center;
 	margin-left: 10px;
 	border-radius: 2px;
-  }
+	}
+	.btn-bottom{
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 15px 0;
+		background-color: #161714;
+    color: #d2c476;
+		font-size: 18px;
+		border: 1px solid #d2c476;
+		border-radius: 3px;
+	}

@@ -32,8 +32,8 @@ class Body extends Component {
                         </div>
                     </li>
                 </ul>
-                <div className="btn_box">
-                    <button className="btn_in_body" onClick={this.btnClick}>
+                <div className="p20">
+                    <button className="btn-bottom" onClick={this.btnClick}>
                         立即购买
                     </button>
                 </div>

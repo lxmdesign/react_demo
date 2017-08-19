@@ -16,8 +16,10 @@ class Content extends Component{
 				<a>赛事详情&gt;</a><br/>
 				<p>{content}<br/>{content2}</p>
 
-				<div className="bottom" >
-					立即购买
+				<div className="p20">
+					<button className="btn-bottom" onClick={this.btnClick}>
+						立即购买
+					</button>
 				</div>
 			</div>
 		);

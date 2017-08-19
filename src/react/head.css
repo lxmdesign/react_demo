@@ -25,6 +25,12 @@
   margin-left: 50px;
 }
 
+.head {
+  text-align: center;
+  border:1px solid #ccc;
+  background-color: rgba(0,0,0,0.9);
+  position:relative;
+}
 .message{
   display: flex;
   align-items: center;
