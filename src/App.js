@@ -25,8 +25,8 @@ class App extends Component {
       <Router>
         <div className="App">
           <Head />
-          <Route path="/0" component={Body}/>
-          <Route path="/1" component={BodyInfo}/>
+          <Route path="/travel" component={Body}/>
+          <Route path="/info" component={BodyInfo}/>
         </div>
       </Router>
     );
