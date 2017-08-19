@@ -11,7 +11,7 @@ class Title extends Component{
 		return(
 			<div className="title">
 				<div>&gt;</div>
-				<div>WSOP德国扑克大赛（国际扑...</div>
+				<div className="ellipsis">WSOP德国扑克大赛（国际扑克大赛)</div>
 			</div>
 		);
 	}
